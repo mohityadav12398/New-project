@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--MOHIT-->
+<p>Hello Mohit Yadav</p> <!--P use for heading to write and display at site-->
+<br/>                    <!--Use for Break the line-->
+<P>LOCAD WORK</P>         
+<h1>Mohit Yadav</h1>     <!--H1,H2,H3,H4,H5,H6 this used for title or can say heading H1 is big  text heading and so on-->
+<h2>Mohit Yadav</h2>
+<h3>Mohit Yadav</h3>
+<h4>Mohit Yadav</h4>
+<h5>Mohit Yadav</h5>
+<h3>Sample Paragraph</h3>
+<p>Sample Paragraph,Sample Paragraph,Sample Paragraph, Sample Paragraph,Sample Paragraph, Sample ParagraphSample Paragraph, Sample ParagraphSample Paragraph, Sample ParagraphSample Paragraph, Sample ParagraphSample Paragraph, Sample ParagraphSample Paragraph, Sample Paragraph</p>
+ <a href="https://mail.zoho.com">Zoho</a>  <!--For refrence we use this to display link at website lie google etc-->
+ <br/>
+ <a href="https://www.flipkart.com" >flipkart</a> 
+ <img src="/image.png" alt="Image" height="200"> <!-- for image used this imgsrc to display image on our site-->
+<br>
+<b>Mohit Yadav</b>
+<hr>Mohit Yadav</hr>
+<p>C<sub>2</sub>O</p>
+<p>4<sup>2</sup>= 16</p>
+<pre>Mohit Yadav</pre>
+<header>
+<p>Education          Experience</p>
+</header>
+<main>
+<section>Education: DTU | 12<sup>th</sup> </section> 
+<article>My Story: </article>
+<!--<a href="https://www.google.com/" target=_Main>Google</a (Target main used for Clickable link with name Like google )-->
+<a hrfef="https://www.google.com/" target="_Main"> 
+    <img 
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTBKa4AW-ADa6QApUii0HsbfEalrLCPEf_gg&s" 
+    alt = "Google"
+    height="200"
+    ></a>
+    <div> Hello World </div>
+<aside>This is an add</aside>
+</main>
+<footer>
+    <h3>Call me at 999999999</h3>
+</footer>
+<ul>   <!--- List are used to represent real life list data it can be further divided into unorder list and Order list-->
+    <li>Apple</li> <!--ul represent as Unorder list and ol is order list,li is list-->
+    <ul>
+        <li>Color - Red</li>  <!--We can further sub divide in List like we can see here-->
+        <li>Season - winter</li>
+    </ul>
+
+    <li>Mango</li>
+    <ul>
+        <li> Color - yellow </li>
+        <li> Season - Summer</li>
+    </ul>
+</ul>
+<ol>   <!--Order List-->
+    <li>Mango</li>
+    <ul>  <!-- we can use unorder list in list section too-->
+        <li> Season - Summer</li>
+    </ul>
+    <li>Apple</li>
+</ol>
+<table> <!-- Using for table <tr> is table row in table row we add header of table first using <td>..-->
+   <thead> <!-- used for define header of the table ki yeh header part hai visibly we can't see-->
+    <caption> Student Data </caption> <!-- using this caption we can give name of the table -->
+   
+    <tr> <!-- tr tag for making row-->
+       <!---<th colspan="3">Infromation</th> colspan use from making header of that table and you an give number of coloumn ki kitna bada dikhe-->
+        <th> Student Name </th>
+        <th> Roll No </th>
+        <th> Age </th>
+    </tr>
+    </thead>
+    <tbody> <!-- used for define header of the table ki yeh body part hai visibly we can't see-->
+    <tr>   <!-- in table now we add data in table using of <td> -->
+        <td> Mohit Yadav </td>
+        <td> 1234 </td>
+        <td> 26 </td>
+    </tr>
+     <tr>  <!-- in table now we add data in table using of <td> -->
+        <td> Mayank </td>
+        <td> 12394 </td>
+        <td> 25 </td>
+    </tr>
+    </tbody>
+</table>
+<!--Form are used to collect the data from the user, Eg signup , login, help request, contact me
+<from>
+    form content
+</from>
+-->
+<!-- action in form :- action attributes is used to define what action needs to be performed when a from is submitted
+ <form action="/action.php"> php is where we want save file backend(php) and frontend
+-->
+    <hr>
+    <form action="/action.php">
+        <input type ="text" placeholder="Type something here">
+        <br>
+        <input type="text" placeholder="Password"> 
+        <input type="password" placeholder="Password"> <!--Hide the password using password in type in format of dot dot-->
+    </form>
+<hr>
+    <!-- Label to give label of input field (jisme u have type password) u hv to type here,radio button work is select only one value in multiple options like 
+     <label for ="id1">
+        <inpur type = "radio" value="class X" name="class" id="id1">
+        </label>
+        <label>
+            <label for ="id2">
+        <inpur type = "radio" value="class X" name="class" id="id2">
+        </label>
+    -->
+        <h4>Select your class</h4>
+        <form action="/action.php">
+            <label for="101">   <!-- label used to clickable for that specific name or whatever like here Class XI pe kahi bhi click kro check box pe click ho jayega, good for eyesight weak guy and issue with eye-->
+<input type="Radio" Value = "Class XI" name="Class" id="101"> Class XI <!-- value = class XI name = class backend mai yeh show hoga-->
+</label>
+<br>
+<label for="102">
+<input type="radio" value="Class XII" name="Class" id="102"> Class XII
+</label>
+<!-- CLASS & ID  (Group 1 is green color and group 2 is blue to define we create class and id)
+ <div id = "id1" class="group1"
+    </div>
+
+ <div id = "id2" class="group2"
+ </div> -->
+
+ <br>
+ <h5>SELECT YOUR FAV SUBJECT</h5>
+ <label for="math">
+    <input type="checkbox" value="Maths" class="XI" id="101"> Maths
+ </label>
+  <br>
+ <label for="Phy">
+    <input type="checkbox" value="Maths" class="XI" id="101"> Phys
+ </label>
+ <br><br> <!-- to make feed back we use textarea and we can change that box size by height and width and row can decide-->
+ <textarea name="Feedback" id="101" placeholder="please give your valuable Feedback here" rows="4"> Feedback </textarea>
+ <br>
+ <select name="City">   <!--Select use for show city to select in form-->
+    <option value ="delhi">Delhi</option>
+    <option value ="pune">Pune</option>
+    <option value ="Uttar pradesh">UP</option>
+    <option value ="mumbai">Mumbai</option>
+ </select>
+<Br>
+ <input type="submit" value="submit"> <!-- submit button show at the end-->
+<!--To show other site inour site
+ <iframe src=link of site></iframe> (display content on our site)
+ <video width="00" height="39" src="moasm" controls/controls loop/ autoplay></video> 
+-->
+ 
+</form>
+<i>Mohit Yadav</i>
+</body>
+</html>
